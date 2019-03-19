@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
  s.name         ="DFWidth"
  s.version      = "1.0.0"
  s.summary      = "A Strong Tool."
@@ -17,5 +17,5 @@ Pod::Spec.new do |spec|
  s.source       = { :git => "https://github.com/duofei3g/DFWidth.git", :tag => "#{s.version}" }
  s.source_files  = "DFWidth/*.{h,m}"
  s.exclude_files = "Classes/Exclude"
-
+ s.requires_arc = true
 end
