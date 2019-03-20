@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface DFWidth : NSObject
-
++(NSInteger)CompareBegin:(NSString *)begin end:(NSString *)end;
 @end
